@@ -3,9 +3,6 @@ from . import models
 from ._builtin import Page, WaitPage
 from .models import Constants
 
-from django.utils import translation
-from django import http
-from django.conf import settings
 
 class InstructionsSVO(Page):
   pass
@@ -29,9 +26,6 @@ class Play(Page):
 		'input_self_14','input_other_14',
 		'input_self_15','input_other_15']
 
-	#def is_displayed(self):
-	#	translation.activate(self.session.vars['django_language'])
-	#	return True
 
 	def vars_for_template(self):
 		item_order = [self.player.random_order1,self.player.random_order2,
