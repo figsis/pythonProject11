@@ -147,8 +147,8 @@ class Player(BasePlayer):
     random_order13 = models.IntegerField(initial=-1)
     random_order14 = models.IntegerField(initial=-1)
     random_order15 = models.IntegerField(initial=-1)
-    svo_angle = models.FloatField(decimal_places=5)
-    alpha = models.FloatField(decimal_places=5)
+    svo_angle = models.FloatField()
+    alpha = models.FloatField()
     svo_type = models.StringField(choices=['Altruist', 'Prosocial', 'Individualist', 'Competitive'])
     paid_slider = models.IntegerField(initial=-1)
 
