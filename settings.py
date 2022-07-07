@@ -50,4 +50,4 @@ Here are some oTree games.
 
 SECRET_KEY = '2463227021408'
 
-INSTALLED_APPS = ['otree','dana','dana_timed', 'the_button','dat','svo']
+INSTALLED_APPS = ['otree']
